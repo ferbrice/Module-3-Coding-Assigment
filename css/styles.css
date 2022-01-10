@@ -118,8 +118,18 @@ body {
   padding-right: 1em;
 }
 
-
-
 /* END CONTENT */
 
+@media (min-width: 768px) {
+  .div-content {
+  margin-left: 2em;
+  margin-right: 2em;
+  }
+}
 
+@media (max-width: 767px) {
+  .div-content {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  }
+}
